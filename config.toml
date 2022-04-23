@@ -1,0 +1,57 @@
+baseURL = ""
+languageCode = "en-us"
+title = "Nic Stats"
+
+theme = "workingasd"
+
+enableRobotsTXT = true
+
+[related]
+    threshold = 0 
+    includeNewer = true
+    toLower = false
+
+    [[related.indices]]
+        name = "categories"
+        weight = 100
+
+    [[related.indices]]
+        name = "date"
+        weight = 10
+        
+        
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
+
+custom_css = ["css/custom.css"]
+
+reading_time = true
+
+enableEmoji = true
+
+#[[menu.footer]]
+  #name = "About"
+  #url = "/about"
+
+
+#[[menu.footer]]
+ # name = "contact me"
+  #url="/contact" 
+
+[params]
+    description = "My site description"
+
+[[menu.main]]
+    name = "Get in touch"
+    url = "/contact"
+
+preserveTaxonomyNames = true
+
+
+
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+
