@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html>
+<html lang="{{ .Site.LanguageCode }}">
     {{- partial "head.html" . -}}
     <body>
-        {{- partial "header.html" . -}}
+        
         <div id="content">
         {{- block "main" . }}{{- end }}
         </div>
         {{- partial "footer.html" . -}}
+<script src="/assets/bundle.js"></script>
     </body>
 </html>
