@@ -1,65 +1,47 @@
 ---
-title: Index  
-date: 20202-04-23T22:44:19Z
-
+title: "WorkingWithASD"  
+output:
+  html_document:
+    toc: true
+    highlight: textmate
+    
 ---
+
+<body>
 
 <style type="text/css">
 
 
+body {
+  font-family: Outfit;
+  background-color: blue;
+}
 
-#connect{
+
+
+#intro{
   width:justify;
-  font-color:black;
+  text-align: left;
+  font-color:red;
   line-height: 17px;
   font-size: justify;
   font-family: Outfit;
-  
-}
-
-
-
-.tagcloud{
-font-family: Outfit;
-color:black;
-}
+  margin:20px;
+  }
 
 </style>
 
-<body>
 
-<div id="pic">
 
-<img src="/images/avatar.jpg"  />
 
+<div id="intro">
+   <h1>
+Working with ASD
+</h1>    
 </div>
-
-
-<div class="connect">
-
-<u><H3>Conect with me on</H3></u>
-
-<a href="https://github.com/NicJC/" target="_blank" rel="  noopener"><i  class="fab fa-github"></i></a>
-
-<a href="https://www.linkedin.com/in/nicholas-coxen/" target="_blank" rel="  noopener"><i  class="fab fa-linkedin-in"></i></a>
     
-<center>
-</div>
-<!-- Tag cloud -->
-<div class="tagcloud">
-<u><p><H3>Tags</H3></p></u>
 
 
-<script>
-
-$(document).ready(function(){
-  $(".nav-tabs a").click(function(){
-    $(this).tab('show');
-  });
-});
-</script> 
-
-</div>
 </body>
 </head>
 </html>
