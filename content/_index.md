@@ -7,16 +7,18 @@ output:
     
 ---
 
-<body>
+<!DOCTYPE html>
+
+<html>
+
+<head>
 
 <style type="text/css">
 
-
 body {
+  background-color: lightblue;
   font-family: Outfit;
-  background-color: blue;
 }
-
 
 
 #intro{
@@ -31,6 +33,7 @@ body {
 
 </style>
 
+<body>
 
 
 
