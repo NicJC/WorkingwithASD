@@ -24,12 +24,19 @@ body {
 #intro{
   width:justify;
   text-align: left;
-  font-color:red;
+  font-color:black;
   line-height: 17px;
   font-size: justify;
   font-family: Outfit;
   margin:20px;
   }
+  
+  
+#container{
+text-align: left;
+margin:35px;
+font-color:black;
+}  
 
 </style>
 
@@ -43,7 +50,20 @@ Working with ASD
 </h1>    
 </div>
     
+<div class="container">
 
+# Introduction
+
+<p>
+
+My 
+
+
+
+
+</p>
+
+</div>
 
 </body>
 </head>
